@@ -1,0 +1,23 @@
+# Secrets — API keys live in .env or Docker secrets, never in git
+.env
+.env.*
+!.env.example
+secrets/
+
+# Local data and build outputs
+data/
+releases/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
